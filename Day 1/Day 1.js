@@ -34,8 +34,8 @@ const generateSimilarityScore = (str) => {
     }, 0);
 }
 
-// console.log(calculateDistance(example));
-// console.log(calculateDistance(problem));
+console.log(calculateDistance(example));
+console.log(calculateDistance(problem));
 
 console.log(generateSimilarityScore(example));
 console.log(generateSimilarityScore(problem));
